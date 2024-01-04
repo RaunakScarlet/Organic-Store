@@ -4,8 +4,12 @@ import mainRight from "../assets/main-right.png";
 
 const MainContent = () => {
     return (
-        <section className="main w-full h-[90vh] flex bg-[#FBFAF9] items-center gap-20 relative">
-            <img src={mainRightBottom} alt="mainRightBottom" className="absolute bottom-0 right-0 h-64 opacity-30"/>
+        <section className="main w-full h-auto py-10 flex bg-[#FBFAF9] items-center gap-16 px-8 ">
+            <img
+                src={mainRightBottom}
+                alt="mainRightBottom"
+                className="absolute bottom-0 right-0 h-64 opacity-30"
+            />
             <div className="main-left w-1/2 ">
                 <img src={mainLeft} alt="mainLeft" className="w-[45vw]" />
             </div>
@@ -26,6 +30,6 @@ const MainContent = () => {
             </div>
         </section>
     );
-}
+};
 
-export default MainContent
+export default MainContent;
