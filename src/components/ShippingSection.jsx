@@ -1,7 +1,7 @@
 
 const ShippingSection = () => {
     return (
-        <div className="bg-[#111111] w-full h-52 mb-12 flex gap-6 p-4 justify-center items-center">
+        <div className="bg-[#111111] w-full h-52  flex gap-6 p-4 justify-center items-center">
             <div className="bg-[#303030] w-72 rounded h-32 flex  flex-col justify-center items-center">
                 <div className="up flex items-center gap-4">
                     <i className="fa-solid fa-truck text-2xl text-[#8BC24A] "></i>
