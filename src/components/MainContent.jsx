@@ -4,7 +4,7 @@ import mainRight from "../assets/main-right.png";
 
 const MainContent = () => {
     return (
-        <section className="main w-full h-auto py-10 pt-20 flex bg-[#FBFAF9] items-center gap-16 px-8 ">
+        <section className="main w-full h-screen py-10 pt-20 flex bg-[#FBFAF9] items-center gap-16 px-8 ">
             <img
                 src={mainRightBottom}
                 alt="mainRightBottom"
