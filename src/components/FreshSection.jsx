@@ -5,7 +5,7 @@ import cabbage from "../assets/product13-free-img.jpg";
 
 const FreshSection = () => {
     return (
-        <div className="w-full  relative bg-[#F8F6F2] flex flex-col items-center mt-20 mb-20">
+        <div className="w-full  relative bg-[#F8F6F2] flex flex-col items-center mt-20 ">
             <img
                 src={basilLeaf}
                 alt="basilLeaf"

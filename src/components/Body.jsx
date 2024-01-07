@@ -1,4 +1,5 @@
 
+import CustomerReviewsSection from "./CustomerReviewsSection";
 import FreshSection from './FreshSection';
 import MainContent from './MainContent';
 import SellingBanner from './SellingBanner';
@@ -8,7 +9,8 @@ const Body = () => {
         <MainContent />
         <ShippingSection />
         <SellingBanner />
-        <FreshSection/>
+        <FreshSection />
+        <CustomerReviewsSection/>
   </div>;
 }
 
