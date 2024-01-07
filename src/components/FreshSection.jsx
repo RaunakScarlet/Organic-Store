@@ -85,7 +85,7 @@ const FreshSection = () => {
                     <i className="fa-solid fa-arrow-right ml-4"></i>
                 </button>
             </div>
-            <div className="w-full h-32 flex items-center justify-center" >
+            <div className="w-full h-24 flex items-center justify-center bg-white" >
                 <h1 className="text-3xl font-bold text-black">
                     Try It For Free. No Registration Needed.
                 </h1>
