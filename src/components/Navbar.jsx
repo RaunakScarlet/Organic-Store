@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/Organic Store main.svg'
+import logo from "../assets/Logo0.svg";
 const Navbar = () => {
   return (
       <nav className="flex justify-between items-center w-[95%] mx-auto py-4">
