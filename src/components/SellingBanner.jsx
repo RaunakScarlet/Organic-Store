@@ -6,28 +6,28 @@ import chili from "../assets/red-chillies-300x300.jpg";
 
 const SellingBanner = () => {
     return (
-        <div className=" w-full h-screen pt-32 flex flex-col items-center">
+        <div className=" w-full h-auto pt-32 flex flex-col items-center">
             <h1 className="text-4xl text-center font-bold">
                 Best Selling Products
             </h1>
             <img className="w-[5rem] pt-6 " src={twig} alt="twig" />
-            <div className="flex gap-6 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-24 gap-6 my-10">
                 <div className="flex flex-col items-center">
-                    <img className="mb-4"  src={coffee} alt="coffee" />
+                    <img className="mb-4 w-48"  src={coffee} alt="coffee" />
                     <p>Groceries</p>
                     <h4 className="font-bold text-md">Assorted Coffee</h4>
                     <p className="text-2xl">✩✩✩✩✩</p>
                     <p className="font-bold text-md">$35.00</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img className="mb-4" src={sanetizer} alt="sanetizer" />
+                    <img className="mb-4 w-48" src={sanetizer} alt="sanetizer" />
                     <p>Groceries</p>
                     <h4 className="font-bold text-md">Hand Sanetizer</h4>
                     <p className="text-2xl">✩✩✩✩✩</p>
                     <p className="font-bold text-md">$15.00</p>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img className="mb-4" src={chili} alt="chili" />
+                    <img className="mb-4 w-48" src={chili} alt="chili" />
                     <p>Groceries</p>
                     <h4 className="font-bold text-md">
                         Hand Picked Red Chilies
@@ -37,7 +37,7 @@ const SellingBanner = () => {
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <img className="mb-4" src={oil} alt="oil" />
+                    <img className="mb-4 w-48" src={oil} alt="oil" />
                     <p>Groceries</p>
                     <h4 className="font-bold text-md">
                         Natural Extracted Edible oil
