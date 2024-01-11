@@ -4,7 +4,7 @@ import mainRight from "../assets/main-right.png";
 
 const MainContent = () => {
     return (
-        <section className="main w-full h-[42rem] sm:h-[40rem] md:h-[36rem]   flex  bg-[#FBFAF9] items-center gap-16 md:gap-24 flex-col-reverse md:flex-row relative   ">
+        <section className="main w-full h-[42rem] sm:h-[40rem] md:h-[36rem]   flex  bg-[#FBFAF9] items-center gap-16 md:gap-24 flex-col-reverse md:flex-row relative  py-4 sm:px-4 p-4">
             <img
                 src={mainRightBottom}
                 alt="mainRightBottom"
@@ -14,7 +14,7 @@ const MainContent = () => {
                 <img
                     src={mainLeft}
                     alt="mainLeft"
-                    className="border-2 w-60 md:w-[38rem]"
+                    className=" w-60 md:w-[38rem]"
                 />
             </div>
             <div className="main-right flex flex-col gap-8 items-center justify-center md:items-start md:w-1/2  ">
