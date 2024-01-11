@@ -3,9 +3,13 @@ import logo from "../assets/Logo0.svg";
 const Navbar = () => {
   return (
       <nav className="flex justify-between items-center w-[95%] mx-auto py-4">
-          <div className="left flex gap-8">
-              <img src={logo} alt="organic-store-logo" className="w-40 h-20" />
-              <ul className="flex items-center justify-between gap-10 ">
+          <div className="left flex lg:gap-8 gap-3">
+              <img
+                  src={logo}
+                  alt="organic-store-logo"
+                  className="lg:w-40 lg:h-20 md:w-32 md:h-12 w-20 h-10"
+              />
+              <ul className="flex items-center justify-between lg:gap-10 md:gap-8 sm:gap-6 gap-3 text-sm  ">
                   <Link to="/">
                       <li>Everything</li>
                   </Link>
@@ -17,8 +21,9 @@ const Navbar = () => {
                   </Link>
               </ul>
           </div>
-          <div className="right flex  ">
-              <ul className="flex items-center justify-between gap-10">
+          <i className="fa-solid fa-bars  right-0 pr-2 text-2xl text-[#8bc24a] lg:hidden md:hidden"></i>
+          <div className="right md:flex lg:flex hidden  ">
+              <ul className="flex items-center justify-between lg:gap-10 md:gap-5 ">
                   <Link to="/">
                       <li>About</li>
                   </Link>
