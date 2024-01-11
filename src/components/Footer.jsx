@@ -5,8 +5,8 @@ import appstore from "../assets/app-store.png";
 
 const Footer = () => {
     return (
-        <div className="w-full h-screen bg-[#1d3174f4] text-white pt-16">
-            <div className="h-[84%] flex justify-between px-16 gap-40  ">
+        <div className="w-full h-auto pb-10 bg-[#1d3174f4] text-white pt-16">
+            <div className="h-[84%] grid grid-cols-1 md:grid-cols-3 justify-between px-16 gap-20 mb-12  ">
                 <div>
                     <img
                         src={Logo}
@@ -61,7 +61,7 @@ const Footer = () => {
                             <li>Let’s Connect</li>
                             <li>Locate Stores</li>
                         </ul>
-                        <div className="flex gap-4 mt-4 ">
+                        <div className="flex gap-4 mt-4 flex-col ">
                             <img
                                 src={playstore}
                                 alt="playstore"
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="h-[16%] text-[#97999b] flex justify-between px-28 items-center">
+            <div className="h-[16%] text-[#97999b] flex justify-between px-14  gap-4 items-center">
                 <h3 className="text-[#97999b] pt-5 text-lg">
                     Copyright © 2024 | Organic Store
                 </h3>
