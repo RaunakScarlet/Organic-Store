@@ -12,16 +12,18 @@ import logo4 from "../assets/logo4.svg";
 
 const CustomerSection = () => {
     return (
-        <div className="w-full h-[130vh] bg-[#F8F6F2] flex flex-col relative">
+        <div className="w-full h-auto bg-[#F8F6F2] flex flex-col relative">
             <img
                 src={leaf}
                 alt="leaf"
                 className=" w-[32rem] absolute opacity-10"
             />
             <div className="pt-20 flex flex-col items-center">
-                <h2 className="text-4xl font-bold">Customers Reviews</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">
+                    Customers Reviews
+                </h2>
                 <img className="w-[5rem] pt-8 " src={twig} alt="twig" />
-                <div className="flex gap-6 items-end justify-center mt-20">
+                <div className="flex flex-col lg:flex-row gap-6 items-end justify-center mt-20">
                     <div className="w-[22rem] border-2 h-[24rem] flex flex-col justify-center items-center p-12 gap-4 text-center">
                         <p className="text-2xl">⭐️⭐️⭐️⭐️⭐️</p>
                         <p className="text-lg">
@@ -76,12 +78,15 @@ const CustomerSection = () => {
                 </div>
             </div>
 
-            <div className=" bg-[#F8F6F2] flex h-60 items-center justify-around px-28">
-                <h2 className="text-2xl">Featured Brands:</h2>
-                <img src={logo1} alt="logo1" />
-                <img src={logo2} alt="logo2" />
-                <img src={logo3} alt="logo3" />
-                <img src={logo4} alt="logo4" />
+            <div className=" bg-[#F8F6F2] flex flex-col  h-auto  items-center justify-between py-2">
+                <h2 className="text-lg md:text-xl font-bold ">Featured Brands:</h2>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    {" "}
+                    <img className="w-24 h-16 md:32 " src={logo1} alt="logo1" />
+                    <img className="w-24 h-16 md:32 " src={logo2} alt="logo2" />
+                    <img className="w-24 h-16 md:32 " src={logo3} alt="logo3" />
+                    <img className="w-24 h-16 md:32 " src={logo4} alt="logo4" />
+                </div>
             </div>
         </div>
     );
