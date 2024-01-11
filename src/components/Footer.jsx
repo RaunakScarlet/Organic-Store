@@ -77,8 +77,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="h-[16%] text-[#97999b] flex justify-between px-14  gap-4 items-center">
-                <h3 className="text-[#97999b] pt-5 text-lg">
+            <div className="h-[16%] text-[#97999b] flex justify-between px-14  gap-4 items-center border-t-2 border-opacity-20 border-slate-400">
+                <h3 className="text-[#97999b] pt-5 text-lg ">
                     Copyright © 2024 | Organic Store
                 </h3>
                 <div className="flex gap-6  text-[#97999b] pt-5 text-lg">

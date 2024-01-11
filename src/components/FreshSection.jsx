@@ -76,7 +76,7 @@ const FreshSection = () => {
 
                
             </div>
-            <div className="w-full min-h-32  px-4 sm:px-10 md:px-16  bg-black flex justify-between items-center ">
+            <div className="w-full min-h-32  px-4 sm:px-10 md:px-16 lg:px-28 bg-black flex justify-between items-center ">
                 <h2 className="md:text-2xl lg:text-4xl text-white">
                     Get 25% Off On Your First Purchase!
                 </h2>

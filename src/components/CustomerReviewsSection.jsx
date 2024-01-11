@@ -18,7 +18,7 @@ const CustomerSection = () => {
                 alt="leaf"
                 className=" w-[32rem] absolute opacity-10"
             />
-            <div className="pt-20 flex flex-col items-center">
+            <div className="pt-20 flex flex-col items-center ">
                 <h2 className="text-3xl md:text-4xl font-bold">
                     Customers Reviews
                 </h2>
@@ -78,14 +78,14 @@ const CustomerSection = () => {
                 </div>
             </div>
 
-            <div className=" bg-[#F8F6F2] flex flex-col  h-auto  items-center justify-between py-2">
-                <h2 className="text-lg md:text-xl font-bold ">Featured Brands:</h2>
+            <div className=" bg-[#F8F6F2] flex flex-col  h-auto  items-center justify-between my-8">
+                <h2 className="text-xl md:text-3xl lg:text-5xl font-bold ">Featured Brands:</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {" "}
-                    <img className="w-24 h-16 md:32 " src={logo1} alt="logo1" />
-                    <img className="w-24 h-16 md:32 " src={logo2} alt="logo2" />
-                    <img className="w-24 h-16 md:32 " src={logo3} alt="logo3" />
-                    <img className="w-24 h-16 md:32 " src={logo4} alt="logo4" />
+                    <img className=" " src={logo1} alt="logo1" />
+                    <img className=" " src={logo2} alt="logo2" />
+                    <img className=" " src={logo3} alt="logo3" />
+                    <img className=" " src={logo4} alt="logo4" />
                 </div>
             </div>
         </div>
